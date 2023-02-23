@@ -8,9 +8,9 @@ export default function Address() {
 
       <NavLink
         className="dark:text-sky-400 block"
-        to={"my-address-id-in-nested-rout"}
+        to={"my-address-id-in-nested-route"}
       >
-        /address/my-address-id-in-nested-rout
+        /address/my-address-id-in-nested-route
       </NavLink>
     </div>
   );
