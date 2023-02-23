@@ -1,11 +1,6 @@
 import { json } from "@remix-run/node";
 import type { ActionArgs, LoaderArgs } from "@remix-run/node";
-import {
-  useFetcher,
-  useLoaderData,
-  useRouteLoaderData,
-} from "@remix-run/react";
-import { type ChangeEvent, useEffect } from "react";
+import { useLoaderData } from "@remix-run/react";
 
 export async function action({ request }: ActionArgs) {
   return null;
