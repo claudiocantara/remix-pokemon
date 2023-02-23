@@ -1,12 +1,5 @@
 import { json } from "@remix-run/node";
-import {
-  Form,
-  Link,
-  useCatch,
-  useLoaderData,
-  useSubmit,
-} from "@remix-run/react";
-import type { ActionArgs } from "@remix-run/node";
+import { Link, useCatch, useLoaderData } from "@remix-run/react";
 import { getPokemons } from "~/api/pokemon";
 
 export async function loader() {
