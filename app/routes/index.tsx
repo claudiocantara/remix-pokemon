@@ -14,7 +14,7 @@ export default function Index() {
   const { title } = useLoaderData<typeof loader>();
 
   return (
-    <section className="container dark:text-white flex flex-col gap-x-2 justify-center items-center">
+    <section className="container mx-auto dark:text-white flex flex-col gap-x-2 justify-center items-center">
       <h1 className="text-lg py-3">{title}</h1>
       <div className="text-center">
         <NavLink to={"/pokemons"} className="dark:text-sky-400 block">

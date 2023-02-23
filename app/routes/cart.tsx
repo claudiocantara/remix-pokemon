@@ -2,7 +2,7 @@ import { NavLink, Outlet } from "@remix-run/react";
 
 export default function Cart() {
   return (
-    <section className="container dark:text-white flex flex-col gap-x-2 justify-center items-center ">
+    <section className="container mx-auto dark:text-white flex flex-col gap-x-2 justify-center items-center ">
       <h1> I'm the wrapper of cart's route</h1>
 
       <NavLink
